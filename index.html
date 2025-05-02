@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Interativo de Clima</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Painel Interativo de Clima</h1>
+        </header>
+
+        <section class="weather-info" id="weather-info">
+            <div class="weather-card">
+                <h2 class="city-name">São Paulo</h2>
+                <p class="temperature">22°C</p>
+                <p class="description">Ensolarado</p>
+            </div>
+
+            <div class="forecast">
+                <div class="forecast-card">
+                    <p>Segunda • Parcialmente Nublado</p>
+                    <p class="forecast-temperature">18°C / 24°C</p>
+                </div>
+                <div class="forecast-card">
+                    <p>Terça • Chuvoso</p>
+                    <p class="forecast-temperature">20°C / 26°C</p>
+                </div>
+                <div class="forecast-card">
+                    <p>Quarta • Ensolarado</p>
+                    <p class="forecast-temperature">21°C / 27°C</p>
+                </div>
+            </div>
+
+            <!--
+            <div class="forecast-mobile">
+                    <p class="forecast-card-mobile">Segunda • 18 °C / 24 °C • Nublado</p>
+                    <p class="forecast-card-mobile">Terça • 20 °C / 26 °C • Nublado</p>
+                    <p class="forecast-card-mobile">Quarta • 21 °C / 27 °C • Ensolarado</p>
+            </div>
+            -->
+
+        </section>
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Digite o nome da cidade">
+            <button id="search-btn">Buscar</button>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Painel Clima | Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+
+<!-- <script src="script.js"></script> -->
+</body>
+</html>
